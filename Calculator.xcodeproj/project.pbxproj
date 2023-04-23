@@ -16,6 +16,10 @@
 		04F7606529F5124B000EE2EB /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7606429F5124B000EE2EB /* CalculatorTests.swift */; };
 		04F7606F29F5124B000EE2EB /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7606E29F5124B000EE2EB /* CalculatorUITests.swift */; };
 		04F7607129F5124B000EE2EB /* CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7607029F5124B000EE2EB /* CalculatorUITestsLaunchTests.swift */; };
+		04F7607F29F5154E000EE2EB /* Appcolor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7607E29F5154E000EE2EB /* Appcolor.swift */; };
+		04F7608129F515A7000EE2EB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7608029F515A7000EE2EB /* Constants.swift */; };
+		04F7608329F515CB000EE2EB /*  Operations .swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7608229F515CB000EE2EB /*  Operations .swift */; };
+		04F7608629F51608000EE2EB /* CallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7608529F51608000EE2EB /* CallService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		04F7606A29F5124B000EE2EB /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F7606E29F5124B000EE2EB /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		04F7607029F5124B000EE2EB /* CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04F7607E29F5154E000EE2EB /* Appcolor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appcolor.swift; sourceTree = "<group>"; };
+		04F7608029F515A7000EE2EB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		04F7608229F515CB000EE2EB /*  Operations .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Operations .swift"; sourceTree = "<group>"; };
+		04F7608529F51608000EE2EB /* CallService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,8 @@
 		04F7604C29F51245000EE2EB /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				04F7608429F515FA000EE2EB /* service */,
+				04F7607D29F5153D000EE2EB /* model */,
 				04F7604D29F51245000EE2EB /* AppDelegate.swift */,
 				04F7604F29F51245000EE2EB /* SceneDelegate.swift */,
 				04F7605129F51245000EE2EB /* ViewController.swift */,
@@ -125,6 +135,24 @@
 				04F7607029F5124B000EE2EB /* CalculatorUITestsLaunchTests.swift */,
 			);
 			path = CalculatorUITests;
+			sourceTree = "<group>";
+		};
+		04F7607D29F5153D000EE2EB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				04F7607E29F5154E000EE2EB /* Appcolor.swift */,
+				04F7608029F515A7000EE2EB /* Constants.swift */,
+				04F7608229F515CB000EE2EB /*  Operations .swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		04F7608429F515FA000EE2EB /* service */ = {
+			isa = PBXGroup;
+			children = (
+				04F7608529F51608000EE2EB /* CallService.swift */,
+			);
+			path = service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F7608129F515A7000EE2EB /* Constants.swift in Sources */,
+				04F7608629F51608000EE2EB /* CallService.swift in Sources */,
+				04F7608329F515CB000EE2EB /*  Operations .swift in Sources */,
 				04F7605229F51245000EE2EB /* ViewController.swift in Sources */,
+				04F7607F29F5154E000EE2EB /* Appcolor.swift in Sources */,
 				04F7604E29F51245000EE2EB /* AppDelegate.swift in Sources */,
 				04F7605029F51245000EE2EB /* SceneDelegate.swift in Sources */,
 			);
